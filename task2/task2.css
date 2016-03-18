@@ -1,0 +1,153 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:none; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+
+
+body{
+	background-color: #eee;
+	height: 100%;
+}
+header{
+	width:100%;
+	background: #333;
+}
+header section{
+	width:1020px;
+	height: 80px;
+	margin: 0 auto;
+}
+.logo{
+	width:80px;
+	height: 80px;
+	background-image: url(logo.jpg);
+	background-size: 80px;
+	text-indent: -9999px;
+	float: left;
+}
+#link ul{
+	width: 550px;
+	float: right;
+	height: 80px;
+	line-height: 80px;
+	color: #eee;
+
+}
+#link li{
+	width: 120px;
+	float: left;
+	text-align: center;
+}
+#link a{
+	color: #eee;
+	display: block;
+}
+#link a:hover,#link .active{
+	background-color: #000;
+}
+
+
+.part{
+	width:1000px;
+	margin: 30px auto;
+	background-color: #fff;
+	box-shadow: 3px 3px 3px #777;
+	padding: 10px;
+}
+.article{
+	margin: 10px;
+	padding: 10px;
+}
+
+.memtable table{
+	width: 95%;
+	margin: 20px auto;
+	text-align: center;
+	border: 1px solid #0058a3;
+	background-color: #eaf5ff;
+}
+
+.mem ul{
+	position: relative;
+	margin-left: 135px;
+	padding-top: 25px;
+	line-height: 1.8em;
+}
+.mem li{
+	list-style: none;
+	right: 100px;
+	}
+.photo{
+	position: absolute;
+	left: -110px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: 80px;
+}
+
+thead{
+ 	background-color: rgb(41,169,231);
+}
+
+table td{
+	padding: 4px 0;
+}
+
+
+.form input,textarea{
+	border:1px #999 solid;
+} 
+.form input{
+	padding: 3px;
+	margin: 5px;
+}
+.form label{
+	margin: 5px;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 10px;
+}
+.form textarea{
+	height: 50px;
+	width: 400px;
+}
+.form button{
+	background-color: rgb(72,88,231);
+	border-radius: 5px;
+	width: 100%;
+	color: #fff;
+	line-height: 2em;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+footer{
+	font-size: 10px;
+	width: 100%;
+	text-align: center;
+	background: #333;
+	height: 70px;
+	padding-top: 20px;
+	color: #fff;
+	}
+footer li{
+	list-style: none;
+	display: inline-block;
+    }
+ footer a{
+ 	color: #fff;
+ }
