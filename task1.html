@@ -161,6 +161,8 @@
 
 	<section class="ffrom">
 		<form action="">
+			<fieldset>
+				<legend>团队信息调查表</legend>
 			<label >团队:</label>
 			<input type="text" disabled value="四月是你的前端"><br>
 
@@ -169,7 +171,26 @@
 
 			<label >性别：</label>
 			<input type="radio" name="sex" value="male">male
-			<input type="radio" name="sex" value="female">female
+			<input type="radio" name="sex" value="female">female<br>
+
+			<label >技术能力：</label>
+			<input type="checkbox" name="html">html
+			<input type="checkbox" name="css">css
+			<input type="checkbox" name="javascript">javascript<br>
+
+			<label >地区:</label>
+			<select name="" id="">
+				<option value="china">中国</option>
+				<option value="american">美国</option>
+				<option value="japan">日本</option>
+			</select><br>
+
+
+
+			<textarea name="detail" id="" cols="30" rows="10"></textarea><br>
+
+			<input type="submit" name="Submit" >
+			</fieldset>
 		</form>
 
 	</section>
